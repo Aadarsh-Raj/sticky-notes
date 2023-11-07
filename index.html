@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arya-Sticky Notes</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <main class="main">
+      <div class="header">
+        <img
+          src="./notes-svgrepo-com.svg"
+          class="notes-svg-icon"
+          alt="Notes-image"
+        />
+        <p>STICKY NOTES</p>
+      </div>
+      <h2>Gallery</h2>
+      <hr />
+      <!-- Main container -->
+      <div class="notes-container">
+        <!-- <div class="card-item">
+          <div class="delete-note">
+            <svg class= "delete-icon"> </svg>
+          </div>
+          <div class="content">Arya</div>
+        </div> -->
+
+
+
+        <!-- Default container -->
+        <div class="add-note-card">
+          + New
+        </div>
+      </div>
+
+      <!-- side-bar -->
+
+      <div class="make-note-container">
+        <div class="close">
+          <img
+            src="./1200px-Circle_arrow_right_font_awesome.svg.png"
+            class="close-btn"
+            alt=""
+          />
+        </div>
+        <div class="note-input-container">
+          <form action="">
+            <textarea
+            rows="10"
+            cols="30"
+              class="message"
+              placeholder="// Add Your Notes Here"
+              
+            ></textarea>
+            <input type="color" class="notes-background" value="#b87af2" />
+            <button type="button" id="add-note-button">Add notes</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
